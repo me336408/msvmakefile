@@ -27,13 +27,13 @@ projects[] = libraries
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-;projects[md_slider][download][type] = "get"
-;projects[md_slider][download][url] = "http://server.salesmanvideo.com/sites/server.salesmanvideo.com/files/md_slider.zip"
+projects[md_slider][download][type] = "get"
+projects[md_slider][download][url] = "http://fserver.mastersalesvideos.com/sites/fserver.mastersalesvideos.com/files/fserver/md_slider-7.x-2.15.tar_.gz"
 ;projects[md_slider][location] = ""
-;projects[md_slider][type] = "module"
-;projects[md_slider][version] = "2.15"
-projects[md_slider][location] = "http://fserver.mastersalesvideos.com/fserver"
 projects[md_slider][type] = "module"
+;projects[md_slider][version] = "2.15"
+;projects[md_slider][location] = "http://fserver.mastersalesvideos.com/fserver"
+;projects[md_slider][type] = "module"
 
 projects[] = nivo_slider
 
@@ -123,22 +123,25 @@ projects[] = views
 ;projects[mastersalesvideo][download][url] = "https://github.com/me336408/MSV.git"
 ;projects[mastersalesvideo][directory_name] = "mastersalesvideo"
 ;projects[mastersalesvideo][type] = "theme"
-projects[mastersalesvideo][location] = "http://fserver.mastersalesvideos.com/fserver"
+;projects[mastersalesvideo][location] = "http://fserver.mastersalesvideos.com/fserver"
+;projects[mastersalesvideo][type] = "theme"
+projects[mastersalesvideo][download][type] = "get"
+projects[mastersalesvideo][download][url] = "http://fserver.mastersalesvideos.com/sites/fserver.mastersalesvideos.com/files/fserver/MSV-7.x-1.x-dev.tar_.gz"
 projects[mastersalesvideo][type] = "theme"
 
-;projects[Porto][download][type] = "get"
-;projects[Porto][download][url] = "http://server.salesmanvideo.com/sites/server.salesmanvideo.com/files/Porto.zip"
-;projects[Porto][type] = "theme"
-projects[porto][location] = "http://fserver.mastersalesvideos.com/fserver"
-projects[porto][type] = "theme"
+projects[Porto][download][type] = "get"
+projects[Porto][download][url] = "http://fserver.mastersalesvideos.com/sites/fserver.mastersalesvideos.com/files/fserver/Porto-7.x-2.0.5.tar_.gz"
+projects[Porto][type] = "theme"
+;projects[porto][location] = "http://fserver.mastersalesvideos.com/fserver"
+;projects[porto][type] = "theme"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-;projects[Porto_sub][download][type] = "get"
-;projects[Porto_sub][download][url] = "http://server.salesmanvideo.com/sites/server.salesmanvideo.com/files/Porto_sub.zip"
-;projects[Porto_sub][type] = "theme"
-projects[porto_sub][location] = "http://fserver.mastersalesvideos.com/fserver"
-projects[porto_sub][type] = "theme"
+projects[Porto_sub][download][type] = "get"
+projects[Porto_sub][download][url] = "http://fserver.mastersalesvideos.com/sites/fserver.mastersalesvideos.com/files/fserver/Porto_sub-master.tar_.gz"
+projects[Porto_sub][type] = "theme"
+;projects[porto_sub][location] = "http://fserver.mastersalesvideos.com/fserver"
+;projects[porto_sub][type] = "theme"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
@@ -161,3 +164,4 @@ libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 libraries[colorpicker][directory_name] = "colorpicker"
 libraries[colorpicker][type] = "library"
+

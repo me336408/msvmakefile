@@ -33,6 +33,7 @@ projects[] = libraries
 ;projects[md_slider][type] = "module"
 ;projects[md_slider][version] = "2.15"
 projects[md_slider][location] = "http://fserver.mastersalesvideos.com/fserver"
+projects[md_slider][type] = "module"
 
 projects[] = nivo_slider
 
@@ -123,11 +124,13 @@ projects[] = views
 ;projects[mastersalesvideo][directory_name] = "mastersalesvideo"
 ;projects[mastersalesvideo][type] = "theme"
 projects[mastersalesvideo][location] = "http://fserver.mastersalesvideos.com/fserver"
+projects[mastersalesvideo][type] = "theme"
 
 ;projects[Porto][download][type] = "get"
 ;projects[Porto][download][url] = "http://server.salesmanvideo.com/sites/server.salesmanvideo.com/files/Porto.zip"
 ;projects[Porto][type] = "theme"
 projects[porto][location] = "http://fserver.mastersalesvideos.com/fserver"
+projects[porto][type] = "theme"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
@@ -135,6 +138,7 @@ projects[porto][location] = "http://fserver.mastersalesvideos.com/fserver"
 ;projects[Porto_sub][download][url] = "http://server.salesmanvideo.com/sites/server.salesmanvideo.com/files/Porto_sub.zip"
 ;projects[Porto_sub][type] = "theme"
 projects[porto_sub][location] = "http://fserver.mastersalesvideos.com/fserver"
+projects[porto_sub][type] = "theme"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,

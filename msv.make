@@ -27,8 +27,8 @@ projects[] = libraries
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[md_slider][download][type] = "git"
-projects[md_slider][download][url] = "https://github.com/me336408/md_slider.git"
+projects[md_slider][download][type] = "get"
+projects[md_slider][download][url] = "https://github.com/me336408/msvmakefile/raw/master/md_slider.tar.gz"
 projects[md_slider][directory_name] = "md_slider"
 projects[md_slider][type] = "module"
 
@@ -122,15 +122,15 @@ projects[mastersalesvideo][type] = "theme"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[Porto][download][type] = "git"
-projects[Porto][download][url] = "https://github.com/me336408/Porto.git"
+projects[Porto][download][type] = "get"
+projects[Porto][download][url] = "https://github.com/me336408/msvmakefile/raw/master/Porto.tar.gz"
 projects[Porto][directory_name] = "Porto"
 projects[Porto][type] = "theme"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[Porto_sub][download][type] = "git"
-projects[Porto_sub][download][url] = "https://github.com/me336408/Porto_sub.git"
+projects[Porto_sub][download][type] = "get"
+projects[Porto_sub][download][url] = "https://github.com/me336408/msvmakefile/raw/master/Porto_sub.tar.gz"
 projects[Porto_sub][directory_name] = "Porto_sub"
 projects[Porto_sub][type] = "theme"
 
